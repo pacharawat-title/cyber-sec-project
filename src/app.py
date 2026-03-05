@@ -1,5 +1,5 @@
 def login(username, password):
     if username == "admin" and \
-    password == "secure_pw": # เปลี่ยน
+    password == "1234":
         return "Login Success"
     return "Login Failed"
