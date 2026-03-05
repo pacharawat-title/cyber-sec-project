@@ -1,4 +1,9 @@
 def login(username, password):
+    """Basic login function"""
+    print("Login attempt detected")
+    if username == "admin":
+        return "Login Successsss"
+    return "Login Failed"
     if username == "admin" and \
     password == "1234":
         return "Login Success"
